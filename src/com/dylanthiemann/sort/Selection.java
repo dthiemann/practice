@@ -1,6 +1,6 @@
 package com.dylanthiemann.sort;
 
-public class SelectionSort implements Sort {
+public class Selection implements Sort {
     public void Sort(int[] a) {
         SelectionSort(a);
     }
