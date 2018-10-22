@@ -6,7 +6,17 @@ public class Merge implements Sort {
     }
 
     public void mergeSort(int[] a) {
+        var n = a.length;
+        int[] left = new int[n/2];
+        int[] right = n % 2 == 0 ? new int[n/2] : new int[n/2 + 1];
 
+        // Fill each array
+        for (var i = 0; i < n/2; i++) {
+            left[i] = a[i];
+        }
+        for (var i = n/2; i < n; i++) {
+            right[i - n/2] = a[i];
+        }
     }
 
     public void int[] combine(int[] a_1, int[] a_2) {
