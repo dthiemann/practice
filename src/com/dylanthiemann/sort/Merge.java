@@ -1,12 +1,18 @@
 package com.dylanthiemann.sort;
 
+import java.util.Arrays;
+
 public class Merge implements Sort {
     public void Sort(int[] a) {
-
+        int[] newArray = mergeSort(a);
+        System.out.println("New array: " + Arrays.toString(newArray));
     }
 
-    public void mergeSort(int[] a) {
+    public int[] mergeSort(int[] a) {
         var n = a.length;
+        if (n == 1) {
+            return a;
+        }
         int[] left = new int[n/2];
         int[] right = n % 2 == 0 ? new int[n/2] : new int[n/2 + 1];
 
@@ -17,9 +23,14 @@ public class Merge implements Sort {
         for (var i = n/2; i < n; i++) {
             right[i - n/2] = a[i];
         }
+
+        right = mergeSort(right);
+        left = mergeSort(left);
+
+        return combine(left, right);
     }
 
-    public void int[] combine(int[] a_1, int[] a_2) {
+    public int[] combine(int[] a_1, int[] a_2) {
         var newArray = new int[a_1.length + a_2.length];
 
         int i = 0;
@@ -48,7 +59,7 @@ public class Merge implements Sort {
             while (j < a_2.length) {
                 newArray[index] = a_2[j];
                 index++;
-                i++;
+                j++;
             }
         }
 
