@@ -1,36 +1,45 @@
 package com.dylanthiemann;
+import com.dylanthiemann.search.Binary;
+import com.dylanthiemann.sort.Bubble;
+import com.dylanthiemann.sort.Selection;
+import com.dylanthiemann.sort.Merge;
 
 import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        int[] testArray = { 5, 48, 79, 1, 6, 9 };
-        System.out.print(Arrays.toString(testArray));
-        SelectionSort(testArray);
-        System.out.print(Arrays.toString(testArray));
-    }
+        int[] testArray;
 
-    public static void SelectionSort(int[] a) {
-        for (var i = 0; i < a.length; i++) {
-            int minIndex = minimumIndex(i, a);
-            swapIndices(a, i, minIndex);
-        }
-    }
+        // Selection sort
+        System.out.print("Selection Sort \n");
+        testArray = new int[] { 5, 48, 79, 1, 6, 9 };
+        System.out.print(Arrays.toString(testArray) + "\n");
+        var selectionSort = new Selection();
+        selectionSort.Sort(testArray);
+        System.out.print(Arrays.toString(testArray) + "\n");
 
-    public static int minimumIndex(int startIndex, int[] a) {
-        var minIndex = startIndex; // Assuming a list of non-negative integers
-        for(var i = startIndex + 1; i < a.length; i++) {
-            if (a[i] < a[minIndex]) {
-                minIndex = i;
-            }
-        }
-        return minIndex;
-    }
+        // Bubble sort
+        System.out.print("Bubble Sort \n");
+        testArray = new int[] { 5, 48, 79, 1, 6, 9 };
+        System.out.print(Arrays.toString(testArray) + "\n");
+        var bubbleSort = new Bubble();
+        bubbleSort.Sort(testArray);
+        System.out.print(Arrays.toString(testArray) + "\n");
 
-    public static void swapIndices(int[] a, int a_a, int a_b) {
-        var temp = a[a_a];
-        a[a_a] = a[a_b];
-        a[a_b] = temp;
+        // Merge sort
+        System.out.print("Merge Sort \n");
+        testArray = new int[] { 5, 48, 79, 1, 6, 9 };
+        System.out.print(Arrays.toString(testArray) + "\n");
+        var mergeSort = new Merge();
+        mergeSort.Sort(testArray);
+
+        // Binary
+        System.out.print("Bubble Sort \n");
+        testArray = new int[] { 5, 48, 79, 1, 6, 9 };
+        bubbleSort.Sort(testArray);
+        var binarySearch = new Binary();
+        System.out.println("Result of finding 6: " + binarySearch.Search(testArray, 6));
+        System.out.println("Result of finding 8: " + binarySearch.Search(testArray, 8));
     }
 }
