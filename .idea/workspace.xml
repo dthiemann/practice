@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="409e886b-0a15-4203-8aa9-f23bf9df5fcc" name="Default Changelist" comment="">
-        <change afterPath="$PROJECT_DIR$/src/com/dylanthiemann/search/Binary.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/com/dylanthiemann/search/Search.java" afterDir="false" />
-        <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-        <change beforePath="$PROJECT_DIR$/out/production/EDX_Test/com/dylanthiemann/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EDX_Test/com/dylanthiemann/Main.class" afterDir="false" />
-        <change beforePath="$PROJECT_DIR$/src/com/dylanthiemann/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dylanthiemann/Main.java" afterDir="false" />
-        <change beforePath="$PROJECT_DIR$/src/com/dylanthiemann/sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dylanthiemann/sort/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dylanthiemann/search/Binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dylanthiemann/search/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EDX_Test/com/dylanthiemann/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EDX_Test/com/dylanthiemann/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dylanthiemann/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dylanthiemann/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dylanthiemann/sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dylanthiemann/sort/Merge.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,10 +71,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dylanthiemann/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="306">
-              <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-=======
             <state relative-caret-position="433">
               <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
               <folding>
@@ -146,15 +142,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
->>>>>>> 280e698b6dfd6c27d84c45dee789088bc1ef86d8
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-<<<<<<< HEAD
-=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -163,7 +156,6 @@
       </list>
     </option>
   </component>
->>>>>>> 280e698b6dfd6c27d84c45dee789088bc1ef86d8
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -181,12 +173,6 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-<<<<<<< HEAD
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-=======
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="2279" />
@@ -194,9 +180,7 @@
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
->>>>>>> 280e698b6dfd6c27d84c45dee789088bc1ef86d8
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -207,61 +191,6 @@
         <subPane>
           <expand>
             <path>
-<<<<<<< HEAD
-              <item name="EDX_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EDX_Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EDX_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EDX_Test" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EDX_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EDX_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EDX_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EDX_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EDX_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EDX_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="EDX_Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EDX_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EDX_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="EDX_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EDX_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EDX_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="EDX_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dylanthiemann" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EDX_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EDX_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EDX_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EDX_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dylanthiemann" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -289,18 +218,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dylanthiemann" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
->>>>>>> 280e698b6dfd6c27d84c45dee789088bc1ef86d8
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540171004807" />
-=======
       <pane id="Scope" />
     </panes>
   </component>
@@ -313,7 +235,6 @@
       <recent name="com.dylanthiemann.sort" />
       <recent name="com.dylanthiemann.SelectionSort" />
     </key>
->>>>>>> 280e698b6dfd6c27d84c45dee789088bc1ef86d8
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -361,16 +282,7 @@
     <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
-<<<<<<< HEAD
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-=======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23303632" />
->>>>>>> 280e698b6dfd6c27d84c45dee789088bc1ef86d8
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -379,11 +291,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
-=======
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32938388" />
->>>>>>> 280e698b6dfd6c27d84c45dee789088bc1ef86d8
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -451,10 +359,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dylanthiemann/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="306">
-          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-=======
         <state relative-caret-position="433">
           <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
           <folding>
@@ -471,7 +375,6 @@
             <element signature="e#121#122#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
           </folding>
->>>>>>> 280e698b6dfd6c27d84c45dee789088bc1ef86d8
         </state>
       </provider>
     </entry>
